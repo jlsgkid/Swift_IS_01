@@ -13,13 +13,6 @@ class DataViewController: UIViewController {
     @IBOutlet weak var dataLabel: UILabel!
     var dataObject: String = ""
 
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        demo();
-    }
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -59,15 +52,9 @@ class DataViewController: UIViewController {
         }
         print("---else if----")
         print (name + String(age))
-        //switch
-        demo2()
-        //for
-        demo3()
-        //String
-        demo4()
     }
     
-    func demo2(){
+    func switchDemo(){
         // has no break
         let num: String! = "aa"
         switch num {
@@ -80,7 +67,7 @@ class DataViewController: UIViewController {
         }
     }
     
-    func demo3(){
+    func forDemo(){
         //0,1,2,3,4
         for i in 0..<5{
             print(i)
@@ -95,7 +82,7 @@ class DataViewController: UIViewController {
         }
     }
     
-    func demo4(){
+    func stringDemo(){
         let str = "String Test"
         //String not NSString
         for c in str.characters{
@@ -123,7 +110,91 @@ class DataViewController: UIViewController {
         let strD = String(format: "%02d:%02d:%02d", 1,2,3)
         print(strD)
         
+        let strE = "aasdfgc"
+        let ocS1 = strE as NSString
+        let s1 = ocS1.substring(to: 3)
+        print((s1))
     }
+    
+    //2018.1.27
+    func arrayDemo(){
+        
+        //--不可变--
+        let p = CGPoint(x: 10, y: 10)
+        let array = [p]
+        print(array) //[(10.0, 10.0)]
+        //NSObject <-> AnyObject(one class can has no parent class)
+        
+        //array.removeAll()
+        let arrayInt = [11,22,33,44,55,66,77,88,99,10]
+        //1
+        for i in 0..<arrayInt.count{
+            print(arrayInt[i])
+        }
+        //2
+        for item in arrayInt{
+            print(item)
+        }
+        //3 元组 （同时遍历下标和内容）
+        for e in array.enumerated(){
+            print(e)
+            //e.offset e.element
+        }
+        //4
+        for item in arrayInt.reversed(){
+            print(item)
+        }
+        //5 reversed
+        for (n,s) in arrayInt.enumerated().reversed(){
+            print("\(n) \(s)")
+        }
+        
+        //let array = [p]
+        var arrayStr = ["w","e","r"]
+        arrayStr.append("q")
+        arrayStr.remove(at: 1)
+        //delete the array and keep the capacity
+        arrayStr.removeAll(keepingCapacity: true)
+        print(arrayStr.capacity)
+        //var array1 = [Int]()
+        
+    }
+    
+    func DictionaryDemo(){
+        //key-value
+        var dict = ["name":"LI","sex":"man"]
+        print(dict)
+        //定义字典的数组 这个在开发中用到的最多
+        let array: [[String: String]] = [
+           ["name": "LI","sex":"man"],
+           ["name": "ZHANG","sex":"man"]
+        ]
+        print(array) //[["name": "LI", "sex": "man"], ["name": "ZHANG", "sex": "man"]]
+        dict["YANG"] = "woman"
+        //<#T##Hashable#>: delete by key
+        //hash:  String -> int (only one) which is used for search
+        dict.removeValue(forKey: "sex")
+        for (key,value) in dict{
+            print("\(key) \(value)")
+        }
+        for key in dict.keys{
+            print(key)
+        }
+        var namesOfIntegers = [Int: String]()
+        namesOfIntegers[16] = "sixteen"
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+        //arrayDemo();
+        DictionaryDemo()
+    }
+    
+    //数据源的方式不同
+    //tableView 必须要继承UITableViewDataSource后重写func tableView
+    //collectionView 必须要继承UICollectionViewController 后实现父类的collectionView
+    //override func collectionView
 
 }
 
