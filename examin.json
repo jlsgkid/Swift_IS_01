@@ -3,7 +3,9 @@
 "data":{										
 	"facilityCount":1,									
 	"facilityData":[{									
-		"facilityName":"○○処理場"							
+		"facilityName":"○○処理場",
+		"checkCount": 1,
+		"checkData": "test"
 	}]
 }
 }										
