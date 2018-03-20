@@ -11,9 +11,9 @@
 			"diagnosisMethod":"設備",							
 			"checkName":"ポンプ設備調査",							
 			"checkDate":"2018/03/19",							
-			"machineCount":3,							
+			"machineCount":1,							
 			"machineData":[{							
-				"machineName":"No.1汚水ポンプ",						
+				"machineName":"No汚水ポンプ",						
 				"machineStatus"	:"未",					
 				"assetNumber":"100",						
 				"generationNumber":"1",						
@@ -32,8 +32,8 @@
 						"partsRange":"qw",				
 						"partsJudge":"qwqw",				
 						"partsTotalJudge":"1",				
-						"partsFind":"2",				
-						"partsMemo":"3"
+						"partsFind":"2ww",				
+						"partsMemo":"3wwww"
 					}]					
 				}],						
 				"checkFuncItemCount":1,						
