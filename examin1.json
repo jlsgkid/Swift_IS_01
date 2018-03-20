@@ -4,14 +4,14 @@
 	"facilityCount":1,									
 	"facilityData":[{									
 		"facilityName":"○○処理場",								
-		"checkCount":2,								
+		"checkCount":1,								
 		"checkData":[{
 			"checkOrder":1,							
 			"checkNumber":"35",							
 			"diagnosisMethod":"設備",							
 			"checkName":"ポンプ設備調査",							
 			"checkDate":"2018/03/19",							
-			"machineCount":3,							
+			"machineCount":1,							
 			"machineData":[{							
 				"machineName":"No.1汚水ポンプ",						
 				"machineStatus"	:"未",					
@@ -20,18 +20,13 @@
 				"place":"汚泥管理棟",						
 				"memo":"メモ",						
 				"checkPartsCount":2,	
-						
-				"checkFuncItemCount":2,						
-				"funcSoundness":"",						
-	
+			        "checkFuncItemCount":2,						
+				"funcSoundness":"",
 				"checkPhysisItemCount":3,						
 				"physicsSoundness":"dsdsSasa",						
-
 				"checkOperationItemCount":3,						
 				"operationSoundness":"",						
-
 				"imageCount":1,						
-
 			}]
 		}]
 	}]
