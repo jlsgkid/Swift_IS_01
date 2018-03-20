@@ -4,7 +4,7 @@
 	"facilityCount":1,									
 	"facilityData":[{									
 		"facilityName":"○○処理場",								
-		"checkCount":2,								
+		"checkCount":1,								
 		"checkData":[{
 			"checkOrder":1,							
 			"checkNumber":"35",							
@@ -19,11 +19,11 @@
 				"generationNumber":"1",						
 				"place":"汚泥管理棟",						
 				"memo":"メモ",						
-				"checkPartsCount":2,	
+				"checkPartsCount":1,	
 					"checkPartsData":[{						
 					"partsName":"器具本体",					
 					"partsSoundness":"4.5",					
-					"checkPartsItemCount":2,					
+					"checkPartsItemCount":1,					
 					"checkPartsItemData":[{					
 						"partsItemName":"亀裂・変形・損傷",				
 						"partsDiagnosisMethod":"目視",								
@@ -34,44 +34,9 @@
 						"partsTotalJudge":"1",				
 						"partsFind":"2",				
 						"partsMemo":"3"
-					},{
-						"partsItemName":"磨耗",				
-						"partsDiagnosisMethod":"測定",								
-						"partsDeterioration":"sas",				
-						"partsDegree":"",				
-						"partsRange":"",				
-						"partsJudge":"12",				
-						"partsTotalJudge":"22",				
-						"partsFind":"",				
-						"partsMemo":"wqwq"
-					}]					
-				},{
-					"partsName":"電源コード",					
-					"partsSoundness":"4.0",					
-					"checkPartsItemCount":2,					
-					"checkPartsItemData":[{					
-						"partsItemName":"亀裂・変形・損傷",				
-						"partsDiagnosisMethod":"目視",								
-						"partsDeterioration":"",				
-						"partsDegree":"asa",				
-						"partsRange":"",				
-						"partsJudge":"sas",				
-						"partsTotalJudge":"11qwq",				
-						"partsFind":"",				
-						"partsMemo":""
-					},{
-						"partsItemName":"劣化",				
-						"partsDiagnosisMethod":"目視",								
-						"partsDeterioration":"",				
-						"partsDegree":"",				
-						"partsRange":"",				
-						"partsJudge":"",				
-						"partsTotalJudge":"",				
-						"partsFind":"",				
-						"partsMemo":""
 					}]					
 				}],						
-				"checkFuncItemCount":2,						
+				"checkFuncItemCount":1,						
 				"funcSoundness":"",						
 				"checkFuncItemData":[{						
 					"funcItemName":"能力低下等の問題",					
@@ -81,16 +46,8 @@
 					"funcItemSoundness":"212",					
 					"funcFind":"1212",					
 					"funcMemo":"ewewe"				
-				},{
-					"funcItemName":"部品供給の状況",					
-					"funcProblem":"ww",					
-					"funcNoProblem":"",					
-					"funcResult":"",					
-					"funcItemSoundness":"wqw",					
-					"funcFind":"",					
-					"funcMemo":"wewewe"					
 				}],
-				"checkPhysisItemCount":3,						
+				"checkPhysisItemCount":1,						
 				"physicsSoundness":"dsdsSasa",						
 				"checkPhysicsItemData":[{						
 					"physicsItemName":"発錆・腐食",					
@@ -104,32 +61,8 @@
 					"physicsItemSoundness":"",					
 					"physicsFind":"",					
 					"physicsMemo":"sasa"					
-				},{
-					"physicsItemName":"亀裂・変形・損傷",					
-					"physicsDiagnosisMethod":"目視",					
-					"physicsWeight":"3",					
-					"physicsNoDegradation":"",					
-					"physicsDegreeDegradation":"",					
-					"physicsRangeDegradation":"",					
-					"physicsJudge":"",					
-					"physicsResult":"",					
-					"physicsItemSoundness":"",					
-					"physicsFind":"",					
-					"physicsMemo":""					
-				},{
-					"physicsItemName":"磨耗",					
-					"physicsDiagnosisMethod":"目視",					
-					"physicsWeight":"66",					
-					"physicsNoDegradation":"",					
-					"physicsDegreeDegradation":"",					
-					"physicsRangeDegradation":"",					
-					"physicsJudge":"",					
-					"physicsResult":"",					
-					"physicsItemSoundness":"",					
-					"physicsFind":"",					
-					"physicsMemo":""					
 				}],
-				"checkOperationItemCount":3,						
+				"checkOperationItemCount":1,						
 				"operationSoundness":"",						
 				"checkOperationItemData":[{						
 					"operationItemName":"動作状況",					
@@ -138,20 +71,6 @@
 					"operationItemSoundness":"",					
 					"operationFind":"",					
 					"operationMemo":""					
-				},{
-					"operationItemName":"振動・異音",					
-					"operationDiagnosisMethod":"測定",					
-					"operationDiagnosisResult":"",					
-					"operationItemSoundness":"",					
-					"operationFind":"1212",					
-					"operationMemo":"sa"					
-				},{
-					"operationItemName":"がたつき",					
-					"operationDiagnosisMethod":"目視",					
-					"operationDiagnosisResult":"",					
-					"operationItemSoundness":"wqwq",					
-					"operationFind":"",					
-					"operationMemo":"wqwqq"				
 				}],
 				"imageCount":1,						
 				"imageData":[{						
