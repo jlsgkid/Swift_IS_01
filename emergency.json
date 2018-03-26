@@ -1,0 +1,155 @@
+{
+"status":0,										
+"data":{										
+	"masterData":{									
+		"discoveryHistoryMasterCount":9,								
+		"discoveryHistoryMasterData":[{								
+			"discoveryHistoryMasterKey":"1",							
+			"discoveryHistoryMasterValue":"巡視点検"
+		},{								
+			"discoveryHistoryMasterKey":"2",							
+			"discoveryHistoryMasterValue":"定期点検"
+		},{								
+			"discoveryHistoryMasterKey":"3",							
+			"discoveryHistoryMasterValue":"中央監視"
+		},{								
+			"discoveryHistoryMasterKey":"4",							
+			"discoveryHistoryMasterValue":"臨時点検"
+		},{								
+			"discoveryHistoryMasterKey":"5",							
+			"discoveryHistoryMasterValue":"定期点検(1ヶ年点検)"
+		},{								
+			"discoveryHistoryMasterKey":"6",							
+			"discoveryHistoryMasterValue":"定期点検(1ヶ月点検)"
+		},{								
+			"discoveryHistoryMasterKey":"7",							
+			"discoveryHistoryMasterValue":"定期点検(3ヶ年点検)"
+		},{								
+			"discoveryHistoryMasterKey":"8",							
+			"discoveryHistoryMasterValue":"定期点検(6ヶ年点検)"
+		},{								
+			"discoveryHistoryMasterKey":"9",							
+			"discoveryHistoryMasterValue":"その他"
+		}],								
+		"failureFactorMasterCount":9,								
+		"failureFactorMasterData":[{								
+			"failureFactorMasterKey":"1",							
+			"failureFactorMasterValue":	"設計不良"	
+		},{						
+			"failureFactorMasterKey":"2",							
+			"failureFactorMasterValue":	"工作不良"	
+		},{						
+			"failureFactorMasterKey":"3",							
+			"failureFactorMasterValue":	"施工不良"	
+		},{						
+			"failureFactorMasterKey":"4",							
+			"failureFactorMasterValue":	"整備不良"	
+		},{						
+			"failureFactorMasterKey":"5",							
+			"failureFactorMasterValue":	"調整不良"	
+		},{						
+			"failureFactorMasterKey":"6",							
+			"failureFactorMasterValue":	"職員過失"	
+		},{						
+			"failureFactorMasterKey":"7",							
+			"failureFactorMasterValue":	"請負過失"	
+		},{						
+			"failureFactorMasterKey":"8",							
+			"failureFactorMasterValue":	"外部障害"	
+		},{						
+			"failureFactorMasterKey":"9",							
+			"failureFactorMasterValue":	"その他"	
+		}],						
+		"impactMasterCount":3,								
+		"impactMasterData":[{								
+			"impactMasterKey":"1",							
+			"impactMasterValue":"(小)河川浄化施設"							
+		},{
+			"impactMasterKey":"2",							
+			"impactMasterValue":"(中)流量調節池排水設備等"							
+		},{
+			"impactMasterKey":"3",							
+			"impactMasterValue":"(大)水門・排水機場等"							
+		}],
+		"failureSizeMasterCount":5,								
+		"failureSizeMasterData":[{								
+			"failureSizeMasterKey":"1",							
+			"failureSizeMasterValue":"支障なし"							
+		},{
+			"failureSizeMasterKey":"2",							
+			"failureSizeMasterValue":"経過観察・劣化進行防止"							
+		},{
+			"failureSizeMasterKey":"3",							
+			"failureSizeMasterValue":"劣化進行の抑制・延命対策"							
+		},{
+			"failureSizeMasterKey":"4",							
+			"failureSizeMasterValue":"大規模補修・部分更新"							
+		},{
+			"failureSizeMasterKey":"5",							
+			"failureSizeMasterValue":"機場の全体的な改築更新"							
+		}]
+	},	
+	"malCount":3,									
+	"malData":[{									
+		"equipmentInfoConsecutive":"1272",								
+		"generationNumber":"1",								
+		"machineName":"粗目スクリーン",								
+		"accrualDate":"2017/07/20",								
+		"accrualTime":"13:29",								
+		"abnormalPart":"潤滑油系統",								
+		"abnormalContent":"潤滑油に漏れがある。\\n潤滑油類に水混入の形跡があるが、パッキン交換では治らない。",								
+		"discoveryHistory":"定期点検",								
+		"failureFactor":"整備不良",								
+		"probableCause":"潤滑油類に水が混入",								
+		"impact":"(小)河川浄化施設",								
+		"failureSize":"劣化進行の抑制・延命対策",								
+		"memo":"",								
+		"imageCount":0,								
+		"imageData":[{								
+			"imageFileName":"",							
+			"imageBody":"",
+            "comment":""
+		}]
+	},{
+		"equipmentInfoConsecutive":"1273",								
+		"generationNumber":"1",								
+		"machineName":"床排水ポンプ",								
+		"accrualDate":"2016/03/19",								
+		"accrualTime":"09:12",								
+		"abnormalPart":"異常振動",								
+		"abnormalContent":"異常振動が発生しており、メーカー等の原因報告書の中で異常振動が理由で分解整備または更新が必要と明記されている。",								
+		"discoveryHistory":"定期点検(1ヶ月点検)",								
+		"failureFactor":"施工不良",								
+		"probableCause":"経年劣化",								
+		"impact":"(中)流量調節池排水設備等",								
+		"failureSize":"大規模補修・部分更新",								
+		"memo":"",								
+		"imageCount":0,								
+		"imageData":[{								
+			"imageFileName":"",							
+            "imageBody":"",
+            "comment":""
+		}]	
+	},{
+		"equipmentInfoConsecutive":"1274",								
+		"generationNumber":"1",								
+		"machineName":"揚砂ポンプ",								
+		"accrualDate":"2015/09/17",								
+		"accrualTime":"11:38",								
+		"abnormalPart":"傾向管理値",								
+		"abnormalContent":"傾向管理値がさらに悪化し、機場の機能に支障が出る恐れがある。",
+		"discoveryHistory":"巡視点検",								
+		"failureFactor":"請負過失",								
+		"probableCause":"傾向管理値悪化",								
+		"impact":"機場の全体的な改築更新",								
+		"failureSize":"大規模補修・部分更新",								
+		"memo":"",								
+		"imageCount":0,								
+		"imageData":[{								
+			"imageFileName":"",							
+			"imageBody":"",
+            "comment":""
+		}]	
+	}]
+}	
+}							
