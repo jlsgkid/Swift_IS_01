@@ -83,8 +83,8 @@
 					"funcMemo":"ewewe"				
 				},{
 					"funcItemName":"部品供給の状況",					
-					"funcProblem":"ww",					
-					"funcNoProblem":"",					
+					"funcProblem":"1",					
+					"funcNoProblem":"0",					
 					"funcResult":"",					
 					"funcItemSoundness":"wqw",					
 					"funcFind":"",					
