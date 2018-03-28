@@ -156,7 +156,8 @@
 				"imageCount":1,						
 				"imageData":[{						
 					"imageFileName":"image01",					
-					"imageBody":"asasasasasass"
+					"imageBody":"asasasasasass",
+					"comment":"TestComment"
 				}]
 			}]
 		}]
