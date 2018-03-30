@@ -1,6 +1,20 @@
 {
 "status":0,						
-"data":{						
+"data":{
+		"masterData":{				
+		"categoryMasterCount":3,			
+		"categoryMasterData":[{			
+			"categoryMasterKey":"1",		
+			"categoryMasterValue:"破損"
+			},{
+			"categoryMasterKey":"2",		
+			"categoryMasterValue:"詰まり"
+			},{
+			"categoryMasterKey":"3",		
+			"categoryMasterValue:"異臭"
+			}
+		]
+	},
 	"memoCount":2,					
 	"memoData":[{					
 		"memoNumber":2,				
