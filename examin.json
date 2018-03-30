@@ -13,12 +13,12 @@
                                      "checkDate":"2018/03/19",
                                      "machineCount":2,
                                      "machineData":[{
-                                                    "machineName":"照明器具02-01",
+                                                    "machineName":"照明器具0330-1",
                                                     "machineStatus"    :"済",
                                                     "assetNumber":"90",
                                                     "generationNumber":"1",
-                                                    "place":"管理棟",
-                                                    "memo":"メモ",
+                                                    "place":"管理棟0330",
+                                                    "memo":"本体",
                                                     "checkPartsCount":2,
                                                     "checkPartsData":[{
                                                                       "partsName":"器具本体",
