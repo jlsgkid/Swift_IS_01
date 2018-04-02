@@ -5,7 +5,7 @@
         "facilityData":[{
                         "facilityName":"○○処理場",
                         "checkCount":1,
-                        "checkData":[{{
+                        "checkData":[{
                                      "checkOrder":1,
                                      "checkNumber":"35",
                                      "diagnosisMethod":"設備",
