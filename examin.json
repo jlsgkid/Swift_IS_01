@@ -11,7 +11,7 @@
                                      "diagnosisMethod":"1",
                                      "checkName":"ポンプ設備調査",
                                      "checkDate":"2018/03/19",
-                                     "machineCount":3,
+                                     "machineCount":1,
                                      "machineData":[{
                                                     "machineName":"床排",
                                                     "machineStatus"    :"未",
@@ -155,7 +155,7 @@
                                      "diagnosisMethod":"2",
                                      "checkName":"ポンプ設備調査",
                                      "checkDate":"2018/03/19",
-                                     "machineCount":3,
+                                     "machineCount":2,
                                      "machineData":[{
                                                     "machineName":"No.1汚水ポンプ",
                                                     "machineStatus"    :"未",
