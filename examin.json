@@ -95,15 +95,15 @@
                                                                       "partsSoundness":"",
                                                                       "checkPartsItemCount":1,
                                                                       "checkPartsItemData":[{
-                                                                                            "partsItemName":"",
-                                                                                            "partsDiagnosisMethod":"",
-                                                                                            "partsDeterioration":"",
-                                                                                            "partsDegree":"",
+                                                                                            "partsItemName":"部品調査項目CVB",
+                                                                                            "partsDiagnosisMethod":"2",
+                                                                                            "partsDeterioration":"3",
+                                                                                            "partsDegree":"DF",
                                                                                             "partsRange":"",
                                                                                             "partsJudge":"",
                                                                                             "partsTotalJudge":"",
                                                                                             "partsFind":"",
-                                                                                            "partsMemo":""
+                                                                                            "partsMemo":"TTT"
                                                                                             }]
                                                                       }],
                                                     "checkFuncItemCount":0,
