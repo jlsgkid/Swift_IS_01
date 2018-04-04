@@ -9,7 +9,7 @@
                                      "checkOrder":1,
                                      "checkNumber":"35",
                                      "diagnosisMethod":"1",
-                                     "checkName":"ポンプ設備調査",
+                                     "checkName":"ポンプ設備調査1",
                                      "checkDate":"2018/03/19",
                                      "machineCount":1,
                                      "machineData":[{
@@ -153,7 +153,7 @@
                                      "checkOrder":2,
                                      "checkNumber":"35",
                                      "diagnosisMethod":"2",
-                                     "checkName":"ポンプ設備調査",
+                                     "checkName":"ポンプ設備調査2",
                                      "checkDate":"2018/03/19",
                                      "machineCount":2,
                                      "machineData":[{
