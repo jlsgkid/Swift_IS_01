@@ -19,7 +19,7 @@
                                                     "generationNumber":"2",
                                                     "place":"管理棟2",
                                                     "memo":"メモ",
-                                                    "checkPartsCount":0,
+                                                    "checkPartsCount":3,
                                                     "checkPartsData":[{
                                                                       "partsName":"部品１",
                                                                       "partsSoundness":"",
